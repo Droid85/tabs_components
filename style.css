@@ -1,0 +1,19 @@
+.wrapper {
+	margin: 0;
+	padding: 10px 3%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.tabs-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.tabs-btn {
+	flex-grow: 1;
+	cursor: pointer;
+}
